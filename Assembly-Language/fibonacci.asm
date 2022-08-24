@@ -1,4 +1,4 @@
-MOV CL,6
+MOV CL,8
 MOV AL,1
 MOV BH,0
 MOV BL,1    

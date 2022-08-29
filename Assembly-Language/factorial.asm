@@ -1,0 +1,9 @@
+MOV AX,1
+MOV CX,6
+
+L1: MUL CX       
+LOOP L1
+HLT
+
+
+

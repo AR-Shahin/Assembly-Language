@@ -1,0 +1,14 @@
+
+; CODE TO DETERMINE THE SERIES 1^2 + 2^2 + 3^2 + ...
+MOV CX,3
+MOV BX,0
+
+L1:MOV AX,1
+    MUL CX
+    MUL CX
+    ADD BX,AX
+    LOOP L1
+
+
+
+

@@ -1,0 +1,18 @@
+LEA SI,ARR
+MOV CX,8
+MOV AL,[SI]
+
+L1: MOV BL,[SI]
+    CMP BL,AL
+    JG L2
+    INC SI
+LOOP L1
+
+HLT
+
+L2: MOV AL,BL
+INC SI
+JMP L1
+
+
+ARR DB 1,3,4,5,2,8,9,6,7

@@ -1,0 +1,10 @@
+MOV AX,15H
+MOV BX,6H
+
+L:XOR DX,DX
+  DIV BX
+  MOV AX,BX
+  MOV BX,DX   
+  CMP DX,0H
+  JNE L
+  HLT

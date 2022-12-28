@@ -24,3 +24,6 @@ L1: MOV AL,[SI]
    
 EXIST:MOV DX,1
       HLT 
+      
+      
+     
